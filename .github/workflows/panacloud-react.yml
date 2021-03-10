@@ -40,6 +40,6 @@ jobs:
       - name: installing surge 
         run: npm install --global surge
       - name: deploying on surge 
-        run: surge ./build http://reactapp-hammad.surge.sh/--token ${{secrets.SURGE_TOKEN1}}
+        run: surge ./build http://reactapp-hammad.surge.sh/ --token ${{secrets.SURGE_TOKEN1}}
 
 
